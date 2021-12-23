@@ -1,0 +1,81 @@
+/* login */
+
+.show-pass {
+    position: absolute;
+    right: 15%;
+    bottom: 58%;
+    cursor: pointer;
+}
+
+.attion{
+    font-size: 10;
+    color: orange;
+    font-weight: 700;
+
+}
+
+.bg-login-image {
+    background-image: url(http://127.0.0.1:8000/images/pexels-photo-244133.jpeg);
+}
+
+.bg-register-image {
+    background-image: url(http://127.0.0.1:8000/images/pexels-photo-70441.jpeg);
+    background-repeat: no-repeat;
+}
+
+input[type=file] {
+    opacity: 0;
+}
+
+.camera {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+/* end login */
+
+
+/* navbar */
+
+.image-user {
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+/*end navbar*/
+
+
+/*Dashboard content */
+
+.photo-user {
+    width: 100px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.photo-camera {
+    position: absolute;
+    left: 50%;
+    bottom: 54%;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+/*End Dashboard content */
+
+
+/*navbar */
+
+.cart {
+    padding: 0px 2px;
+    margin: 0px 5px;
+}
+
+
+/*end navbar*/

@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.body{
+    background-image: url("../images/login/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial;
+    color: #5c0d76;
+    font-size: 17px;
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,#1ecbe1,#9b1cad);
+    opacity: .5;
+}
+.container{
+    position: absolute;
+    z-index: 2;
+    width: 330px;
+    height: 83vh;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    border-radius: 15px;
+}
+.row{
+    height: 68vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.form{
+    height: 68vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+form{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+}
+form input{
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    padding: 5px 0px 0px 15px;
+    box-shadow: 5px 5px 20px 10px #eeeeee;
+}
+::placeholder{
+    font-weight: bold;
+    color: black;
+}
+form input:hover{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+form button{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #9b1cad;
+    margin: auto;
+    padding: 15px 20px;
+    width: 50%;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 10px #eeeeee;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    margin: 10px 0px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.links{
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+}
+.guide{
+    color: #a8a8a8;
+    height: 3vh;
+}
+.connect{
+    height: 3vh;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    overflow: visible;
+}
+.connect img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 4px 4px #eeeeee;
+}
